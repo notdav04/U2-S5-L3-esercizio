@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+  background-color: lightgoldenrodyellow;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.main-item img {
+  width: 2rem;
+}
+.nav-item {
+  background-color: #ffda77;
+  padding: 0.5rem 0.5rem;
+  border-radius: 30px;
+  color: #5a4632;
+  font-weight: bold;
+
+  align-items: center;
+}
+
+.main-item {
+  display: flex;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-grow: 2;
+}

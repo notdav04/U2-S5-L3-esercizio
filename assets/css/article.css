@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.wrapper img {
+  width: 100%;
+}
+.wrapper .info-content {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper img {
+    width: 50%;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+}
